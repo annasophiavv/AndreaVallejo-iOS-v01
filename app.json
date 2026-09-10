@@ -11,7 +11,8 @@
       "bundleIdentifier": "co.com.andreavallejo.app",
       "buildNumber": "1",
       "infoPlist": {
-        "NSFaceIDUsageDescription": "Usamos Face ID para proteger el acceso a tus resultados."
+        "NSFaceIDUsageDescription": "Usamos Face ID para proteger el acceso a tus resultados.",
+        "ITSAppUsesNonExemptEncryption": false
       }
     },
     "android": {
@@ -27,7 +28,10 @@
     },
     "scheme": "andreavallejo",
     "extra": {
-      "environment": "demo"
+      "environment": "demo",
+      "eas": {
+        "projectId": "d64baaf5-8b0a-4e73-8fd0-179150726bee"
+      }
     }
   }
 }
